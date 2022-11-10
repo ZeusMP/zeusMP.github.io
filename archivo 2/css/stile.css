@@ -1,0 +1,55 @@
+body{
+    height: 800px;
+    width: 800px;
+    margin: auto;
+    padding: auto;
+    padding-top: 150px;
+    overflow: hidden;
+    background:url("fond1.jpg") ;
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    background: aliceblue;
+}
+.hol{
+    background: aliceblue;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.hola{
+    background: aliceblue;
+    padding-top:0 ;
+    margin: auto;
+    margin-top: 0;
+    padding: auto;
+}
+.fondo{
+    background: aliceblue;
+}
+.h1{
+    font-size: 25px;
+    margin: auto;
+    margin-left: 150px;
+    
+    padding-top: 20px;
+    font-size: 45px;
+    display:inline-flex;
+    justify-content:center;
+    cursor: pointer;
+}
+.h2{
+    
+    font-size: 25px;
+    margin: auto;
+    margin-left: 150px;
+    
+    padding-top: 20px;
+    font-size: 45px;
+    display:inline-flex;
+    justify-content:center;
+    cursor: pointer;
+}
