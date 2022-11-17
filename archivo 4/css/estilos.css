@@ -1,0 +1,68 @@
+* {
+	box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: url(/img/fon-1.jpg);
+
+}
+h1{
+    display: flex;
+    background: rgba(0, 0, 0, 0.842);
+    font-size: 50px;
+    margin: auto;
+    margin-top: 0;
+    padding-top: 20px;
+    justify-content: center;
+    align-content: center;
+    height: 100px;
+    
+    color: rgb(255, 255, 255);
+}
+form{
+    
+    background: rgba(0, 0, 0, 0.801);
+	max-width: 800px;
+	width: 450px;
+    height: 250px;
+	margin: auto;
+    margin-top:100px;
+	padding: 40px;
+    border-radius: 15px;
+}
+.h{
+    color: white;
+ 
+    padding: 2px;
+    margin: 3px;
+    background-color: rgba(0, 0, 0, 0.144);
+    border: none;
+    border-radius: 5px;
+    
+}
+.in{
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px;
+    margin: auto;
+    margin-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px;
+}
+
+.in:hover{
+    box-shadow: 5px 1px 30px rgb(0, 16, 197);
+	background-color: #0075FF;
+}
+.h:hover{
+    font-style:italic;
+    background-color: #ffffff;
+    color: black;
+    
+    
+}
